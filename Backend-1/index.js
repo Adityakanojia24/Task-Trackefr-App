@@ -1,7 +1,7 @@
 const express = require("express");
 // const databaseconnection = require("./dbconnection");
 const mongoose = require("mongoose")
-
+require('dotenv').config()
 const app = express();
 
 const USER_MODEL = require("./taskmodel");
